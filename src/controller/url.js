@@ -62,7 +62,7 @@ const createUrl=async function(req,res){
     }
     
    
-    let correctUrl=longUrl.toLowerCase().trim()
+    let correctUrl=longUrl.trim()
     console.log(correctUrl)
     
     if(!validUrl.isWebUri(correctUrl)){
